@@ -1,0 +1,98 @@
+[
+  {
+    "model": "menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "name": "Margherita Pizza",
+      "description": "Classic pizza with tomato sauce, mozzarella cheese, and fresh basil leaves",
+      "price": "12.99",
+      "category": "PIZZA",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "name": "Pepperoni Pizza",
+      "description": "Traditional pepperoni pizza with mozzarella cheese and tomato sauce",
+      "price": "14.99",
+      "category": "PIZZA",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 3,
+    "fields": {
+      "name": "Supreme Pizza",
+      "description": "Loaded with pepperoni, sausage, mushrooms, bell peppers, and onions",
+      "price": "18.99",
+      "category": "PIZZA",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 4,
+    "fields": {
+      "name": "Hawaiian Pizza",
+      "description": "Ham and pineapple with mozzarella cheese",
+      "price": "16.99",
+      "category": "PIZZA",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 5,
+    "fields": {
+      "name": "Garlic Bread",
+      "description": "Fresh baked bread with garlic butter and herbs",
+      "price": "6.99",
+      "category": "APPETIZER",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 6,
+    "fields": {
+      "name": "Caesar Salad",
+      "description": "Crisp romaine lettuce with Caesar dressing and parmesan cheese",
+      "price": "8.99",
+      "category": "APPETIZER",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 7,
+    "fields": {
+      "name": "Coca Cola",
+      "description": "Classic Coca Cola soft drink",
+      "price": "2.99",
+      "category": "DRINK",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 8,
+    "fields": {
+      "name": "Chocolate Brownie",
+      "description": "Rich chocolate brownie served warm",
+      "price": "5.99",
+      "category": "DESSERT",
+      "is_available": true,
+      "created_at": "2025-06-01T00:00:00Z"
+    }
+  }
+]
