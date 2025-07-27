@@ -24,7 +24,7 @@
         </div>
         
         <div class="d-grid gap-2">
-            <a href="{% url 'orders:add_to_cart' item.pk %}" class="btn btn-danger btn-lg">
+            {% comment %} <a href="{% url 'orders:add_to_cart' item.pk %}" class="btn btn-danger btn-lg"> {% endcomment %}
                 <i class="fas fa-cart-plus"></i> Add to Cart
             </a>
             <a href="{% url 'menu:menu_list' %}" class="btn btn-outline-secondary">
